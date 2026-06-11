@@ -13,3 +13,11 @@
 .reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:translateY(0)}
 @media (max-width:1024px){.hero-grid,.split-grid,.contact-grid,.footer-grid{grid-template-columns:1fr}.cards-4,.services-grid,.pricing-grid,.service-detail-grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:760px){.nav-toggle{display:block}.nav-links{position:absolute;top:126px;left:0;right:0;display:none;flex-direction:column;padding:1rem;background:rgba(255,255,255,.98);border-bottom:1px solid var(--border)}.nav-links.open{display:flex}.hero,.section{padding:3.8rem 0}.page-hero.slim{padding:3.8rem 0 2rem}.cards-4,.services-grid,.service-detail-grid,.pricing-grid{grid-template-columns:1fr}.topbar-inner{justify-content:center}.site-logo{height:46px}.footer-site-logo{height:50px}}
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
